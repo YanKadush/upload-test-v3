@@ -1,0 +1,33 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  z-index: 99;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.additional {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.statusBar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.statusItems {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
